@@ -16,9 +16,33 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_btn_test_clicked();
+//    void on_btn_test_clicked();
+
+    void on_btn_playPause_clicked();
+
+    void on_btn_left_clicked();
+
+    void on_btn_right_clicked();
+
+    void on_btn_up_clicked();
+
+    void on_btn_down_clicked();
+
+    void on_btn_y2b_nextVideo_clicked();
+
+    void on_btn_y2b_fullscreen_clicked();
+
+    void on_btn_y2b_theater_clicked();
+
+    void on_btn_y2b_mute_clicked();
 
 private:
     Ui::MainWindow *ui;
+
+
+    QString osascript;
+    QStringList processArguments;
+    QString aScript;
+
 };
 #endif // MAINWINDOW_H
