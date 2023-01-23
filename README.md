@@ -9,7 +9,7 @@
 ---
 ## Technical Details
 
-  A simple test of Qt, using Apple Script to simulate keyboard control. A part of my SmartHomeTools.
+  A simple test of [Qt](https://github.com/qt), using Apple Script to simulate keyboard control. A part of my SmartHomeTools.
 
   In AppleScript part, simply using the System Event's "KeyStroke" to simulate a keyboard activity.
   And then, tell process Google Chrome. So that if you are already watching a Video on web site. It can control the video play/pause. 
