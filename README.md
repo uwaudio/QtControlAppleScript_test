@@ -2,14 +2,14 @@
 
 ## Motivation
 
-  Started this project because while using Home Assistant to control my home, I found that I was missing a device for simple control of my playback computer. Since I use a Mac Mini in my home that is directly connected to the NEC projector, I can currently only switch the NEC projector on and off with Home Assistant, but not the player (my Mac Mini).
+  Started this project because while using [Home Assistant](https://github.com/home-assistant) to control my home, I found that I was missing a device for simple control of my playback computer. Since I use a Mac Mini in my home that is directly connected to the NEC projector, I can currently only switch the NEC projector on and off with Home Assistant, but not the player (my Mac Mini).
 
   So I decided to do some initial exploration of controlling my player in a simple way.
 
 ---
 ## Technical Details
 
-  A simple test of Qt, using Apple Script to simulate keyboard control. A part of mySmartHomeTools.
+  A simple test of Qt, using Apple Script to simulate keyboard control. A part of my SmartHomeTools.
 
   In AppleScript part, simply using the System Event's "KeyStroke" to simulate a keyboard activity.
   And then, tell process Google Chrome. So that if you are already watching a Video on web site. It can control the video play/pause. 
@@ -23,36 +23,34 @@
 ---
 ## Release Note
 
-### V0.2.1
+### V0.2.1 
 
-  Add more button, to provide more control functions.
-  
-  Add special controls for YouTube platform. 
+- Add more button, to provide more control functions.    
+- Add special controls for YouTube platform. 
+
+[download v0.2.1-alpha](https://github.com/uwaudio/QtControlAppleScript_test/releases/tag/v0.2.1-alpha)
 
 ### V0.0.1 (initial version)
 
-  Only one button, used to verify that Qt can control applications in macOS through AppleScript.
+- Only one button, used to verify that Qt can control applications in macOS through AppleScript.
 
 
 ---
 ## In feature
 
-  Next step will create the remote version.
-  
-  Maybe this tool will provide a webAPI, and sinply http request will control the play / pause instead using button.
+Next step will create the remote version.    
+Maybe this tool will provide a webAPI, and sinply http request will control the play / pause instead using button.
 
 ---
 ## System Requirement
 
-  macOS 10.15.7 Catalina (only test on this version)
-
-  Google Chrome version 108 or newer version
+- Apple macOS 10.15.7 Catalina (only test on this version)  
+- Google Chrome version 108 or newer version
 
 ## Development Environment
 
-  macOS 10.15.7 Catalina
-
-  Qt Community Version (Clang 6.2.4)
+- Apple macOS 10.15.7 Catalina  
+- Qt Community Version (Clang 6.2.4)
 
 ---
 ## License
