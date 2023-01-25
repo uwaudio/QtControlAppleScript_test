@@ -202,3 +202,39 @@ void MainWindow::on_btn_y2b_mute_clicked()
     p.waitForFinished();
 }
 
+
+void MainWindow::on_btn_bLive_stopLive_clicked()
+{
+    aScript =
+                "tell application \"System Events\"\n"
+                "    tell process \"Google Chrome\"\n"
+                "        set frontmost to true\n"
+                "    end tell\n"
+                "    key code 13 using {command down}\n"
+                "end tell\n";
+
+    QProcess p;
+    p.start(osascript, processArguments);
+    p.write(aScript.toUtf8());
+    p.closeWriteChannel();
+    p.waitForFinished();
+}
+
+
+void MainWindow::on_btn_bLive_restartLast_clicked()
+{
+    aScript =
+                "tell application \"System Events\"\n"
+                "    tell process \"Google Chrome\"\n"
+                "        set frontmost to true\n"
+                "    end tell\n"
+                "    key code 17 using {command down, shift down}\n"
+                "end tell\n";
+
+    QProcess p;
+    p.start(osascript, processArguments);
+    p.write(aScript.toUtf8());
+    p.closeWriteChannel();
+    p.waitForFinished();
+}
+

@@ -36,6 +36,10 @@ private slots:
 
     void on_btn_y2b_mute_clicked();
 
+    void on_btn_bLive_stopLive_clicked();
+
+    void on_btn_bLive_restartLast_clicked();
+
 private:
     Ui::MainWindow *ui;
 
