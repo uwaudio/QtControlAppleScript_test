@@ -17,11 +17,16 @@
 
   (for all dear contributors, I have not test on NetFlix. If you have NetFlix account and prefer to test this tool, please tell me any result or issues, thanks a lot ! )
 
-
-![image](https://user-images.githubusercontent.com/49844552/214079267-d59c4386-e27f-4cec-ab07-91ecc71eb839.png)
+![image](https://user-images.githubusercontent.com/49844552/214701499-1d1df00f-a369-4dd3-ab90-30500459301a.png)
 
 ---
 ## Release Note
+
+### V0.2.2 
+
+- Add special controls for Bilibili Live platform. 
+
+[download v0.2.2-alpha](https://github.com/uwaudio/QtControlAppleScript_test/releases/tag/v0.2.2-alpha)
 
 ### V0.2.1 
 
